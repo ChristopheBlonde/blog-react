@@ -1,0 +1,18 @@
+.sideContent {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  align-self: flex-start;
+  background-color: white;
+}
+
+.sideContent img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.sideContent h2,
+.sideContent img {
+  margin-bottom: 20px;
+}

@@ -1,1 +1,53 @@
-/* Other rules */
+/* Global rules */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap");
+:root {
+  --fontNunito: "Nunito", sans-serif;
+}
+body {
+  background-color: rgb(211, 211, 211);
+}
+.content {
+  font-family: var(--fontNunito);
+
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.article {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(173, 173, 173);
+  padding: 30px 0;
+}
+
+b {
+  font-weight: 900;
+}
